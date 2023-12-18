@@ -15,7 +15,7 @@ function RegisterVolunteer() {
     name: "",
     email: "",
     phone: "",
-    date_of_birth: new Date(),
+    date_of_birth: null,
     address: "",
     campain_id: "",
     reason: "",
