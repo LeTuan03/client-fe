@@ -58,7 +58,7 @@ function Campaign() {
         >
           {data &&
             data
-              .filter((e) => e.statusId !== 3)
+              .filter((e) => e.statusId !== 3 && e?.status)
               .map((val, ind) => {
                 return (
                   <SwiperSlide key={ind}>
